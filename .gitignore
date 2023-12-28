@@ -1,5 +1,11 @@
 .env
 models
+csv_folder
 
-security_info.py
 __pycache__
+
+
+# file 
+security_info.py
+test4.json
+test5.json

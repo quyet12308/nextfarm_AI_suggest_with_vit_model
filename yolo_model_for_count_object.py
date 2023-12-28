@@ -10,7 +10,7 @@ import PIL.Image as Image
 def count_la_khoai_mi_with_url(url):
     
     # define the model
-    model = YOLO('models/model_yolo_for_count_cassava.pt')
+    model = YOLO('models/model1.pt')
     image = Image.open(requests.get(url, stream=True).raw)
     # run inference on the source image
     # results = model('images/1702452877119.png')

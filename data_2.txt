@@ -1,0 +1,6 @@
+{"id": 11037, "pic_url": "https://iot-image.nextfarm.vn/avn/0902243822/1703135346934.png", "tag_name_level1": "chua_xac_dinh", "tag_name_level2": "kham_la_do_virut", "tag_name_level3": "kham_la_do_virut"}
+{"id": 11038, "pic_url": "https://iot-image.nextfarm.vn/avn/0902243822/1703135347304.png", "tag_name_level1": "chua_xac_dinh", "tag_name_level2": "chay_la", "tag_name_level3": "kham_la_do_virut"}
+{"id": 11035, "pic_url": "https://iot-image.nextfarm.vn/avn/0902243822/1703135336279.png", "tag_name_level1": "chua_xac_dinh", "tag_name_level2": "chua_xac_dinh", "tag_name_level3": "kham_la_do_virut"}
+{"id": 11036, "pic_url": "https://iot-image.nextfarm.vn/avn/0902243822/1703135336624.png", "tag_name_level1": "chua_xac_dinh", "tag_name_level2": "kham_la_do_virut", "tag_name_level3": "kham_la_do_virut"}
+{"id": 11033, "pic_url": "https://iot-image.nextfarm.vn/avn/0902243822/1703135335588.png", "tag_name_level1": "chua_xac_dinh", "tag_name_level2": "kham_la_do_virut", "tag_name_level3": "kham_la_do_virut"}
+{"id": 11034, "pic_url": "https://iot-image.nextfarm.vn/avn/0902243822/1703135335916.png", "tag_name_level1": "chua_xac_dinh", "tag_name_level2": "kham_la_do_virut", "tag_name_level3": "kham_la_do_virut"}

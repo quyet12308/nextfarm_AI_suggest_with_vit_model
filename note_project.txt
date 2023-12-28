@@ -1,1 +1,25 @@
 có vẻ vit hoạt đổng ổn hơn , cũng có thể là do người ta train tốt , hiện chưa xác định .
+
+note label:
+"0": "CBB",
+"1": "CBSD",
+"2": "CGM",
+"3": "CMD",
+"4": "H"
+
+note model with testing 1500 images (5 class) and vit model 
+
+accuracy_rates = {'0': 0.853448275862069, '1': 0.8172757475083057, '4': 0.7507692307692307, '2': 0.8705035971223022, '3': 0.8021978021978022}
+incorrect_counts = {'1': 55, '4': 81, '2': 36, '3': 72, '0': 34}
+max_confidence_correct = {'0': 3.276325225830078, '3': 4.280967712402344, '1': 3.775491714477539, '2': 3.7586758136749268, '4': 3.361332416534424}
+min_confidence_correct = {'0': 0.7443105578422546, '3': 1.64732027053833, '1': 0.9695135354995728, '2': 0.7783715724945068, '4': 0.9385800957679749}
+max_confidence_incorrect = {'1': 3.7336952686309814, '4': 3.38144850730896, '2': 3.6714065074920654, '3': 4.2242751121521, '0': 3.0051770210266113}
+min_confidence_incorrect = {'1': 0.9880813360214233, '4': 0.9743490815162659, '2': 1.4812453985214233, '3': 0.5524338483810425, '0': 0.8093788623809814}
+
+note vấn đề gặp phải khi cố lấy ra 2 cái class (28-12-2023).
+- vì các chuyên gia bên ajinomoto phân loại từ 5 class trên kaggle thành 4 cái class với cmd và cgm đều là bệnh khảm nên phải sử lý lại logic hàm lấy ra các giá trị 
+dự đoán . nếu sau có tách lại các class thì cần sửa lại hàm
+
+note các vấn đề khi bắt chua_xac_dinh :
+-nếu độ chắc chắn ( xác suất của class) trả về là số âm thì hiện chưa biết sử lý thế nào nên đẩy tậm về 70% là chưa xác định
+
